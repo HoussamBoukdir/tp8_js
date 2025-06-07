@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let noms=["achraf","7ousem","oubouhou","a7med"];
+        //noms.map(x=>console.log(x.length));
+        let t1 = noms.map(x=>x.length);
+        console.log(t1);
+
+        //convertit les elts du tableau en majuscule
+        let t2 = noms.map(x => x.toUpperCase());
+        console.log(t2);
+
+        //copie le tableau
+        let t3 = noms.map(x => x);
+        console.log(t3);
+
+        //inverser les lettres de chaque element
+        let t4 = noms.map(x => x.split("").reverse().join(""));
+        console.log(t4);
+
+        //inverser les elements du tableau
+        let t5 = noms.reverse();
+        console.log(t5);
+
+        //trier les elements du tableau
+        let t6 = noms.sort();
+        console.log(t6);
+
+        //trier les elements du tableau en fonction de leur longueur
+    </script>
+</body>
+</html>
